@@ -23,84 +23,83 @@ class ZadaniaIndywidualneTest {
         byte returnedByte = ZadaniaIndywidualne.getByteVar();
         //then
         assertEquals(expectedValue, returnedByte);
-
     }
 
     @Test
-    @DisplayName("1 -> 1")
+    @DisplayName("2 -> 2")
     void getShortVar() {
         //given
-        var shortVar = 2;
+        short expectedValue = 2;
         //when
         short returnedShort = ZadaniaIndywidualne.getShortVar();
         //then
-        assertEquals(ZadaniaIndywidualne.byteVar, returnedShort);
+        assertEquals(expectedValue, returnedShort);
     }
 
     @Test
     @DisplayName("2 -> 2")
     void getIntVar() {
         //given
-        var intVar = 2;
+        int expectedValue = 2;
         //when
         int returnedInt = ZadaniaIndywidualne.getIntVar();
         //then
-        assertEquals(ZadaniaIndywidualne.intVar, returnedInt);
+        assertEquals(expectedValue, returnedInt);
     }
 
     @Test
     @DisplayName("3 -> 3")
     void getLongVar() {
         //given
-        var LongVar = 3;
+       long expectedValue = 3;
         //when
         long returnedLong = ZadaniaIndywidualne.getLongVar();
         //then
-        assertEquals(ZadaniaIndywidualne.longVar, returnedLong);
+        assertEquals(expectedValue, returnedLong);
     }
 
     @Test
     @DisplayName("true -> true")
     void isBooleanVar() {
         //given
-        var booleanVar = true;
+        boolean expectedValue = true;
         //when
         boolean returnedBoolean = ZadaniaIndywidualne.isBooleanVar();
         //then
-        assertEquals(ZadaniaIndywidualne.booleanVar, returnedBoolean);
+        assertEquals(expectedValue, returnedBoolean);
     }
 
     @Test
     @DisplayName("'a' -> 'a'")
     void getCharVar() {
         //given
-        var charVar = 'a';
+        char expectedValue = 'a';
         //when
         char returnedChar = ZadaniaIndywidualne.getCharVar();
         //then
-        assertEquals(ZadaniaIndywidualne.charVar, returnedChar);
+        assertEquals(expectedValue, returnedChar);
     }
 
     @Test
     @DisplayName("2 -> 2")
     void getFloatVar() {
         //given
-        var floatVar = 2;
+        float expectedValue = 2;
         //when
         float returnedFloat = ZadaniaIndywidualne.getFloatVar();
         //then
-        assertEquals(ZadaniaIndywidualne.charVar, returnedFloat);
+        assertEquals(expectedValue, returnedFloat);
     }
 
     @Test
     @DisplayName("12 ->12")
     void getDoubeVar() {
         //given
-        var doubleVar = 2;
+        double expectedValue = 2;
         //when
         double returnedDouble = ZadaniaIndywidualne.getDoubeVar();
         //then
-        assertEquals(ZadaniaIndywidualne.charVar, returnedDouble);
+        assertEquals(expectedValue, returnedDouble);
     }
 
     @Test
