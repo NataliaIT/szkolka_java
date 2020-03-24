@@ -25,6 +25,6 @@ class Krok1Test {
 
         logs.assertContains("Hello, Natalia!");
 
-
+//assertEquals(ZadanieIndywidualne.);
     }
 }
