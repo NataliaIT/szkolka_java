@@ -25,7 +25,8 @@ class ZadaniaIndywidualneTest {
     }
 
     @Test
-    void getShortVar(2->2) {
+    @DisplayName("1 -> 1")
+    void getShortVar() {
         //given
         var shortVar = 2;
         //when
@@ -35,6 +36,7 @@ class ZadaniaIndywidualneTest {
     }
 
     @Test
+    @DisplayName("2 -> 2")
     void getIntVar() {
         //given
         var intVar = 2;
@@ -45,6 +47,7 @@ class ZadaniaIndywidualneTest {
     }
 
     @Test
+    @DisplayName("3 -> 3")
     void getLongVar() {
         //given
         var LongVar = 3;
@@ -55,30 +58,46 @@ class ZadaniaIndywidualneTest {
     }
 
     @Test
-    void isBooleanVar(true -> true) {
+    @DisplayName("true -> true")
+    void isBooleanVar() {
         //given
         var booleanVar = true;
         //when
-        int returnedBoolean = ZadaniaIndywidualne.isBooleanVar();
+        boolean returnedBoolean = ZadaniaIndywidualne.isBooleanVar();
         //then
         assertEquals(ZadaniaIndywidualne.booleanVar, returnedBoolean);
     }
 
     @Test
+    @DisplayName("'a' -> 'a'")
     void getCharVar() {
         //given
-        var charVar = 2;
+        var charVar = 'a';
         //when
-        int returnedChar = ZadaniaIndywidualne.getCharVar();
+        char returnedChar = ZadaniaIndywidualne.getCharVar();
         //then
         assertEquals(ZadaniaIndywidualne.charVar, returnedChar);
     }
 
     @Test
+    @DisplayName("2 -> 2")
     void getFloatVar() {
+        //given
+        var floatVar = 2;
+        //when
+        float returnedFloat = ZadaniaIndywidualne.getFloatVar();
+        //then
+        assertEquals(ZadaniaIndywidualne.charVar, returnedFloat);
     }
 
     @Test
+    @DisplayName("12 ->12")
     void getDoubeVar() {
+        //given
+        var doubleVar = 2;
+        //when
+        double returnedDouble = ZadaniaIndywidualne.getDoubeVar();
+        //then
+        assertEquals(ZadaniaIndywidualne.charVar, returnedDouble);
     }
 }

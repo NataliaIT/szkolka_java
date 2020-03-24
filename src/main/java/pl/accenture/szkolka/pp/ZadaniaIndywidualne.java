@@ -23,14 +23,14 @@ public class ZadaniaIndywidualne {
     //
 
 
-    public static byte byteVar = 1;
-    public static short ShortVar = 5;
-    public static int intVar = 3;
-    public static long longVar = 10;
-    public static boolean booleanVar = true;
-    public static char charVar = 'a';
-    public static float floatVar = 3;
-    public static double doubeVar = 5;
+    public static byte byteVar;
+    public static short ShortVar;
+    public static int intVar;
+    public static long longVar;
+    public static boolean booleanVar;
+    public static char charVar;
+    public static float floatVar;
+    public static double doubeVar;
 
     public static byte getByteVar() {
         return byteVar;
