@@ -9,8 +9,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ZadaniaIndywidualneTest {
 
- //   @RegisterExtension
-  //  LogCapturer logs = LogCapturer.create().captureForType(Krok1.class);
+    @RegisterExtension
+    LogCapturer logs = LogCapturer.create().captureForType(Krok1.class);
 
     @Test
     @DisplayName("1 -> 1")
@@ -99,5 +99,31 @@ class ZadaniaIndywidualneTest {
         double returnedDouble = ZadaniaIndywidualne.getDoubeVar();
         //then
         assertEquals(ZadaniaIndywidualne.charVar, returnedDouble);
+    }
+
+    @Test
+    @DisplayName("argument -> Hello, argument")
+    void hello1() {
+        //given
+        var argument = "Natalia1";
+
+        //when
+        ZadaniaIndywidualne.hello1(argument);
+        //then
+
+        logs.assertContains("Hello, Natalia1");
+    }
+
+    @Test
+    @DisplayName("argument -> Hello, argument")
+    void hello2() {
+        //given
+        var argument = "Natalia2";
+        //when
+        String returnedArgument = ZadaniaIndywidualne.hello2(argument);
+        //then
+
+        assertEquals(argument, returnedArgument);
+
     }
 }

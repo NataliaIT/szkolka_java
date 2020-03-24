@@ -17,7 +17,7 @@ public class ZadaniaIndywidualne {
     //​
     //    // done 5 utwórz metodę void wypisującą do loggera "Hello " + przekazany do metody argument (String)
     //​
-    //    // TODO 6 utwórz metodę zwracającą  "Hello " + przekazany do metody argument (String)
+    //    // done 6 utwórz metodę zwracającą  "Hello " + przekazany do metody argument (String)
     //​
     //    /*
     //            TODO 7 utwórz testy dla metod z punktów 4-6, dla testowania logowanych wartości, użyj
@@ -71,7 +71,7 @@ public class ZadaniaIndywidualne {
 
     public static void hello1(String argument) {
         LOG.log(Level.INFO, String.format("Hello, %s%n", argument));
-        //System.out.printf("Hello, %s!%n", name);
+
     }
 
     public static String hello2(String argument) {

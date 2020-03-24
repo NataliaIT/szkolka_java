@@ -14,7 +14,7 @@ public class Main {
 //        hello(args[0]);
 //        hello(args[2]);
 //        hello(args[1]);
-        hello1("jakisArgument");
-        hello2("jakisArgument");
+        hello1("Natalia1");
+        hello2("Natalia2");
     }
 }
