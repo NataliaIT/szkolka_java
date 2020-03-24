@@ -1,10 +1,8 @@
 package pl.accenture.szkolka;
 
-import pl.accenture.szkolka.pp.Krok1;
+import pl.accenture.szkolka.pp.ZadaniaIndywidualne;
 
-import static pl.accenture.szkolka.pp.Krok1.hello;
-import static pl.accenture.szkolka.pp.ZadaniaIndywidualne.hello1;
-import static pl.accenture.szkolka.pp.ZadaniaIndywidualne.hello2;
+import static pl.accenture.szkolka.pp.ZadaniaIndywidualne.logHello;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +12,7 @@ public class Main {
 //        hello(args[0]);
 //        hello(args[2]);
 //        hello(args[1]);
-        hello1("Natalia1");
-        hello2("Natalia2");
+        logHello("Natalia1");
+        final var natalia2 = ZadaniaIndywidualne.getGreeting("Natalia2");
     }
 }

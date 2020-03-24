@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static pl.accenture.szkolka.pp.ZadaniaIndywidualne.HELLO_INFORMAL;
 
 class ZadaniaIndywidualneTest {
 
@@ -16,11 +17,12 @@ class ZadaniaIndywidualneTest {
     @DisplayName("1 -> 1")
     void getByteVarTest() {
         //given
-        var byteVar = 1;
+        byte expectedValue = 1;
+        ZadaniaIndywidualne.byteVar = expectedValue;
         //when
         byte returnedByte = ZadaniaIndywidualne.getByteVar();
         //then
-        assertEquals(ZadaniaIndywidualne.byteVar, returnedByte);
+        assertEquals(expectedValue, returnedByte);
 
     }
 
@@ -103,27 +105,27 @@ class ZadaniaIndywidualneTest {
 
     @Test
     @DisplayName("argument -> Hello, argument")
-    void hello1() {
+    void logHello() {
         //given
-        var argument = "Natalia1";
+        var name = "Natalia1";
 
         //when
-        ZadaniaIndywidualne.hello1(argument);
+        ZadaniaIndywidualne.logHello(name);
         //then
 
-        logs.assertContains("Hello, Natalia1");
+        logs.assertContains(HELLO_INFORMAL+name);
     }
 
     @Test
     @DisplayName("argument -> Hello, argument")
-    void hello2() {
+    void getGreeting() {
         //given
-        var argument = "Natalia2";
+        var name = "Natalia2";
         //when
-        String returnedArgument = ZadaniaIndywidualne.hello2(argument);
+        String returnedArgument = ZadaniaIndywidualne.getGreeting(name);
         //then
 
-        assertEquals(argument, returnedArgument);
+        assertEquals(name, returnedArgument);
 
     }
 }

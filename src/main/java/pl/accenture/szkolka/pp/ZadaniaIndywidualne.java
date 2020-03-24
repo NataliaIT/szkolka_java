@@ -6,6 +6,7 @@ import java.util.logging.Logger;
 import static java.util.logging.Logger.getLogger;
 
 public class ZadaniaIndywidualne {
+    public static final String HELLO_INFORMAL = "Hello, ";
     //​
     //    // done 1 zadeklaruj zmienne z typami prostymi występującymi z Javie
     //​
@@ -69,14 +70,14 @@ public class ZadaniaIndywidualne {
 
     private static final Logger LOG = getLogger("pl.accenture.szkolka.pp.Krok1");
 
-    public static void hello1(String argument) {
-        LOG.log(Level.INFO, String.format("Hello, %s%n", argument));
+    public static void logHello(String name) {
+        LOG.log(Level.INFO, String.format(HELLO_INFORMAL + "%s%n", name));
 
     }
 
-    public static String hello2(String argument) {
+    public static String getGreeting(String name) {
 
-                return "Hello" + argument;
+                return String.format(HELLO_INFORMAL + "%s",name);
     }
 
 
