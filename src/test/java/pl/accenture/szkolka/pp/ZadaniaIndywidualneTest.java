@@ -66,6 +66,12 @@ class ZadaniaIndywidualneTest {
 
     @Test
     void getCharVar() {
+        //given
+        var charVar = 2;
+        //when
+        int returnedChar = ZadaniaIndywidualne.getCharVar();
+        //then
+        assertEquals(ZadaniaIndywidualne.charVar, returnedChar);
     }
 
     @Test
