@@ -46,6 +46,12 @@ class ZadaniaIndywidualneTest {
 
     @Test
     void getLongVar() {
+        //given
+        var LongVar = 3;
+        //when
+        long returnedLong = ZadaniaIndywidualne.getLongVar();
+        //then
+        assertEquals(ZadaniaIndywidualne.longVar, returnedLong);
     }
 
     @Test
