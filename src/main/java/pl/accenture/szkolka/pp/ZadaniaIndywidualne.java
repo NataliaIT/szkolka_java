@@ -1,6 +1,9 @@
 package pl.accenture.szkolka.pp;
 
 import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import static java.util.logging.Logger.getLogger;
 
 public class ZadaniaIndywidualne {
     //​
@@ -8,11 +11,11 @@ public class ZadaniaIndywidualne {
     //​
     //    // done 2 zadeklaruj metody zwracające te zmienne
     //​
-    //    // TODO 3 utwórz testy dla metod z punktu 2
+    //    // done 3 utwórz testy dla metod z punktu 2
     //​
-    //    // TODO 4 utwórz metodę void wypisującą do loggera "Hello"
+    //    // done 4 utwórz metodę void wypisującą do loggera "Hello"
     //​
-    //    // TODO 5 utwórz metodę void wypisującą do loggera "Hello " + przekazany do metody argument (String)
+    //    // done 5 utwórz metodę void wypisującą do loggera "Hello " + przekazany do metody argument (String)
     //​
     //    // TODO 6 utwórz metodę zwracającą  "Hello " + przekazany do metody argument (String)
     //​
@@ -62,6 +65,18 @@ public class ZadaniaIndywidualne {
 
     public static double getDoubeVar() {
         return doubeVar;
+    }
+
+    private static final Logger LOG = getLogger("pl.accenture.szkolka.pp.Krok1");
+
+    public static void hello1(String argument) {
+        LOG.log(Level.INFO, String.format("Hello, %s%n", argument));
+        //System.out.printf("Hello, %s!%n", name);
+    }
+
+    public static String hello2(String argument) {
+
+                return "Hello" + argument;
     }
 
 
