@@ -36,6 +36,12 @@ class ZadaniaIndywidualneTest {
 
     @Test
     void getIntVar() {
+        //given
+        var intVar = 2;
+        //when
+        int returnedInt = ZadaniaIndywidualne.getIntVar();
+        //then
+        assertEquals(ZadaniaIndywidualne.intVar, returnedInt);
     }
 
     @Test
