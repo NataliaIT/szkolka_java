@@ -55,7 +55,13 @@ class ZadaniaIndywidualneTest {
     }
 
     @Test
-    void isBooleanVar() {
+    void isBooleanVar(true -> true) {
+        //given
+        var booleanVar = true;
+        //when
+        int returnedBoolean = ZadaniaIndywidualne.isBooleanVar();
+        //then
+        assertEquals(ZadaniaIndywidualne.booleanVar, returnedBoolean);
     }
 
     @Test
