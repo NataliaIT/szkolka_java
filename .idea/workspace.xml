@@ -279,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585125147992</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=" poprawa testow">
+      <created>1585125948496</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585125948496</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,7 +316,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="zmiana w testach" />
     <MESSAGE value="dodanie dependencies, poprawa testow" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie dependencies, poprawa testow" />
+    <MESSAGE value=" poprawa testow" />
+    <option name="LAST_COMMIT_MESSAGE" value=" poprawa testow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Plugins" timestamp="1585055745839">
@@ -332,26 +340,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="74" key="#xdebugger.evaluate/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585071654041" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585125144702">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585125946256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125144702" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585125898871">
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125946256" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585125962322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125898871" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585125898870">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125962322" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585125962322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125898870" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585125898869">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125962322" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585125962322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125898869" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585125898871">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125962322" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585125962322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125898871" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125962322" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585074669837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -408,6 +416,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="483" y="252" key="git4idea.rebase.GitUnstructuredEditor/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125565154" />
+    <state x="499" y="271" key="git4idea.ui.GitResetDialog" timestamp="1585126109241">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="271" key="git4idea.ui.GitResetDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585126109241" />
     <state x="303" y="231" key="git4idea.ui.GitUnstashDialog" timestamp="1585074504299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
