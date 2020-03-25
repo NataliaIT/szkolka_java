@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e9b5501-a52b-4dc4-b44d-c7a87058bf75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/accenture/szkolka/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/accenture/szkolka/ProductTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="procedutal_programming" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\rnew\Desktop\szkolka_java\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZZJPUfwZITmvM3o8p8B19jMvju" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.accenture.szkolka" />
+      <recent name="pl.accenture.szkolka.pp" />
+    </key>
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="pl.accenture.szkolka.pp.ZadaniaIndywidualne" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rnew\Desktop\szkolka_java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.Main" />
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Krok1Test.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.pp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.accenture.szkolka.pp" />
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.pp.Krok1Test" />
+      <option name="METHOD_NAME" value="hello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZadaniaIndywidualneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.pp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.accenture.szkolka.pp" />
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.pp.ZadaniaIndywidualneTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZadaniaIndywidualneTest.getByteVarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.pp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.accenture.szkolka.pp" />
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.pp.ZadaniaIndywidualneTest" />
+      <option name="METHOD_NAME" value="getByteVarTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZadaniaIndywidualneTest.logHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.pp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.accenture.szkolka.pp" />
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.pp.ZadaniaIndywidualneTest" />
+      <option name="METHOD_NAME" value="logHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.Krok1Test.hello" />
+      <item itemvalue="JUnit.ZadaniaIndywidualneTest" />
+      <item itemvalue="JUnit.ZadaniaIndywidualneTest.getByteVarTest" />
+      <item itemvalue="JUnit.ZadaniaIndywidualneTest.logHello" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ZadaniaIndywidualneTest.logHello" />
+        <item itemvalue="JUnit.ZadaniaIndywidualneTest.getByteVarTest" />
+        <item itemvalue="JUnit.ZadaniaIndywidualneTest" />
+        <item itemvalue="JUnit.Krok1Test.hello" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e9b5501-a52b-4dc4-b44d-c7a87058bf75" name="Default Changelist" comment="" />
+      <created>1585040658354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585040658354</updated>
+    </task>
+    <task id="LOCAL-00001" summary="usuniecie gitignore ze zdalnego repo">
+      <created>1585041996685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585041996685</updated>
+    </task>
+    <task id="LOCAL-00002" summary="metoda hello">
+      <created>1585055793031</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585055793031</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TODO punkty 1,2">
+      <created>1585060002748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585060002748</updated>
+    </task>
+    <task id="LOCAL-00004" summary="trzeci test INT">
+      <created>1585060094031</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585060094031</updated>
+    </task>
+    <task id="LOCAL-00005" summary="czwarty test LONG">
+      <created>1585060174025</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585060174025</updated>
+    </task>
+    <task id="LOCAL-00006" summary="piaty test BOOLEAN">
+      <created>1585060272016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585060272016</updated>
+    </task>
+    <task id="LOCAL-00007" summary="szosty test CHAR">
+      <created>1585060316195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585060316195</updated>
+    </task>
+    <task id="LOCAL-00008" summary="testy poprawione">
+      <created>1585060685194</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585060685194</updated>
+    </task>
+    <task id="LOCAL-00009" summary="meethod Logger, method return String">
+      <created>1585061673068</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585061673068</updated>
+    </task>
+    <task id="LOCAL-00010" summary="meethod Logger, method return String tests">
+      <created>1585062329804</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585062329804</updated>
+    </task>
+    <task id="LOCAL-00011" summary="poprawione nazwy">
+      <created>1585073091379</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585073091379</updated>
+    </task>
+    <task id="LOCAL-00012" summary="@Test: poprawione ExpectedValue">
+      <created>1585073441999</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585073441999</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="usuniecie gitignore ze zdalnego repo" />
+    <MESSAGE value="metoda hello" />
+    <MESSAGE value="TODO punkty 1,2" />
+    <MESSAGE value="trzeci test INT" />
+    <MESSAGE value="czwarty test LONG" />
+    <MESSAGE value="piaty test BOOLEAN" />
+    <MESSAGE value="szosty test CHAR" />
+    <MESSAGE value="testy poprawione" />
+    <MESSAGE value="meethod Logger, method return String" />
+    <MESSAGE value="meethod Logger, method return String tests" />
+    <MESSAGE value="poprawione nazwy" />
+    <MESSAGE value="@Test: poprawione ExpectedValue" />
+    <MESSAGE value="test" />
+    <MESSAGE value="zmiana w testach" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmiana w testach" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="26" key="#Plugins" timestamp="1585055745839">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="26" key="#Plugins/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585055745839" />
+    <state x="399" y="221" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1585051595816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="221" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585051595816" />
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585046467385">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585046467385" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585123949006">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585123949006" />
+    <state x="438" y="74" key="#xdebugger.evaluate" timestamp="1585071654041">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="74" key="#xdebugger.evaluate/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585071654041" />
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585074482323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074482323" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585074669853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074669853" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585074669853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074669853" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585074669853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074669853" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585074669853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074669853" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585074669837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074669837" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1585074669837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074669837" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1585074669837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074669837" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1585074669837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074669837" />
+    <state x="129" y="61" width="1104" height="606" key="MergeDialog" timestamp="1585124321387">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="61" width="1104" height="606" key="MergeDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585124321387" />
+    <state x="395" y="82" key="MultipleFileMergeDialog" timestamp="1585124321396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="82" key="MultipleFileMergeDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585124321396" />
+    <state x="182" y="10" width="1184" height="708" key="SettingsEditor" timestamp="1585051596618">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="182" y="10" width="1184" height="708" key="SettingsEditor/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585051596618" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585074533111">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074533111" />
+    <state x="454" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585124049304">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585124049304" />
+    <state x="464" y="81" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585124284681">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="464" y="81" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585124284681" />
+    <state x="489" y="168" key="git4idea.merge.GitMergeDialog" timestamp="1585073514605">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="489" y="168" key="git4idea.merge.GitMergeDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585073514605" />
+    <state x="303" y="231" key="git4idea.ui.GitUnstashDialog" timestamp="1585074504299">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="303" y="231" key="git4idea.ui.GitUnstashDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074504299" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585073055244">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585073055244" />
+  </component>
+</project>
