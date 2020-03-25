@@ -31,7 +31,7 @@ class ProductTest {
         //then
         assertEquals(expectedValue, returnedProductName);
     }
-
+    @Test
     @DisplayName(" 5 -> 5")
     void getCategoryNumber() {
         //given
