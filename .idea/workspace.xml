@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9b5501-a52b-4dc4-b44d-c7a87058bf75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/accenture/szkolka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/accenture/szkolka/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,15 +15,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="procedutal_programming" />
+        <entry key="$PROJECT_DIR$" value="Feature1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,19 +72,16 @@
       <recent name="C:\Users\rnew\Desktop\szkolka_java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductTest">
-    <configuration name="Krok1Test.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.Main" />
       <module name="szkolka_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.accenture.szkolka.pp.*" />
+          <option name="PATTERN" value="pl.accenture.szkolka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.accenture.szkolka.pp" />
-      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.pp.Krok1Test" />
-      <option name="METHOD_NAME" value="hello" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Krok1Test.hello" />
       <item itemvalue="JUnit.ZadaniaIndywidualneTest" />
       <item itemvalue="JUnit.ZadaniaIndywidualneTest.getByteVarTest" />
       <item itemvalue="JUnit.ZadaniaIndywidualneTest.logHello" />
       <item itemvalue="JUnit.ProductTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ProductTest" />
         <item itemvalue="JUnit.ZadaniaIndywidualneTest.logHello" />
         <item itemvalue="JUnit.ZadaniaIndywidualneTest.getByteVarTest" />
         <item itemvalue="JUnit.ZadaniaIndywidualneTest" />
-        <item itemvalue="JUnit.Krok1Test.hello" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585125948496</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=" poprawa testow">
+      <created>1585127662349</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585127662349</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,26 +347,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="74" key="#xdebugger.evaluate/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585071654041" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585125946256">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585127660551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125946256" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585125962322">
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585127660551" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585130635142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125962322" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585125962322">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585130635142" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585130635141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125962322" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585125962322">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585130635141" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585130635140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125962322" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585125962322">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585130635140" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585130635141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585125962322" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585130635141" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585074669837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
