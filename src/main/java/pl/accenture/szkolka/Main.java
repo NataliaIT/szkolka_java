@@ -1,15 +1,19 @@
 package pl.accenture.szkolka;
 
 import static pl.accenture.szkolka.Oceny.*;
-import
+
+import pl.accenture.szkolka.oop.Child;
 
 public class Main {
     public static void main(String[] args) {
 
+
+        System.out.println(new Child("Dzieciak").getName());
 //new EmployeeOOP().introduceMyself();
 //PersonOOP person = new EmployeeOOP();
 
-   }
+    }
+
 //       System.out.println(jakaOcenaIF(4));
 //        jakaOcenaSWITCH(5);
 //        przykladForEachContinue();

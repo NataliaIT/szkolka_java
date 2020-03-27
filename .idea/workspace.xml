@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9b5501-a52b-4dc4-b44d-c7a87058bf75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/EmployeeOOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/PersonOOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Step1OOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Boat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Main.java" afterDir="false" />
     </list>
@@ -83,6 +77,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.oop.Child" />
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.Main" />
       <module name="szkolka_java" />
@@ -126,22 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZadaniaIndywidualneTest.getByteVarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="szkolka_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.accenture.szkolka.pp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.accenture.szkolka.pp" />
-      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.pp.ZadaniaIndywidualneTest" />
-      <option name="METHOD_NAME" value="getByteVarTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZadaniaIndywidualneTest.logHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="szkolka_java" />
       <extension name="coverage">
@@ -160,18 +151,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ZadaniaIndywidualneTest.getByteVarTest" />
       <item itemvalue="JUnit.ZadaniaIndywidualneTest.logHello" />
       <item itemvalue="JUnit.ProductTest" />
       <item itemvalue="JUnit.OcenyTest" />
+      <item itemvalue="Application.Child" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Child" />
         <item itemvalue="JUnit.OcenyTest" />
         <item itemvalue="JUnit.ProductTest" />
         <item itemvalue="JUnit.ZadaniaIndywidualneTest.logHello" />
-        <item itemvalue="JUnit.ZadaniaIndywidualneTest.getByteVarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585296385383</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="oop">
+      <created>1585308007474</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585308007474</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,7 +350,8 @@
     <MESSAGE value=" poprawa testow" />
     <MESSAGE value="vararg" />
     <MESSAGE value="petle" />
-    <option name="LAST_COMMIT_MESSAGE" value="petle" />
+    <MESSAGE value="oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Plugins" timestamp="1585055745839">
@@ -367,18 +366,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585046467385" />
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585297612132">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585308849851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585297612132" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585308849851" />
     <state x="438" y="74" key="#xdebugger.evaluate" timestamp="1585071654041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="74" key="#xdebugger.evaluate/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585071654041" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585296378770">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585308003351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585296378770" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585308003351" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585307950236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
