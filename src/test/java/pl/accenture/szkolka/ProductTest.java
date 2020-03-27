@@ -17,7 +17,8 @@ class ProductTest {
         //when
         float returnedPrice = Product.getPrice();
         //then
-        assertEquals(expectedValue, returnedPrice);
+  //      assert.Contains("dobry");
+   //     asse
     }
 
     @Test

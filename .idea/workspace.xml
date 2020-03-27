@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9b5501-a52b-4dc4-b44d-c7a87058bf75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Oceny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Step2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/accenture/szkolka/OcenyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/accenture/szkolka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/accenture/szkolka/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/accenture/szkolka/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/accenture/szkolka/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/accenture/szkolka/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -55,6 +58,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -72,7 +78,7 @@
       <recent name="C:\Users\rnew\Desktop\szkolka_java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.OcenyTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.Main" />
       <module name="szkolka_java" />
@@ -82,6 +88,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OcenyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.accenture.szkolka" />
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.OcenyTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,21 +117,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.accenture.szkolka" />
       <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.ProductTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZadaniaIndywidualneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="szkolka_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.accenture.szkolka.pp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.accenture.szkolka.pp" />
-      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.pp.ZadaniaIndywidualneTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ZadaniaIndywidualneTest" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ZadaniaIndywidualneTest.getByteVarTest" />
       <item itemvalue="JUnit.ZadaniaIndywidualneTest.logHello" />
       <item itemvalue="JUnit.ProductTest" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.OcenyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OcenyTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ProductTest" />
         <item itemvalue="JUnit.ZadaniaIndywidualneTest.logHello" />
         <item itemvalue="JUnit.ZadaniaIndywidualneTest.getByteVarTest" />
-        <item itemvalue="JUnit.ZadaniaIndywidualneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585127662349</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="vararg">
+      <created>1585130865681</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585130865742</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +314,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -324,7 +339,8 @@
     <MESSAGE value="zmiana w testach" />
     <MESSAGE value="dodanie dependencies, poprawa testow" />
     <MESSAGE value=" poprawa testow" />
-    <option name="LAST_COMMIT_MESSAGE" value=" poprawa testow" />
+    <MESSAGE value="vararg" />
+    <option name="LAST_COMMIT_MESSAGE" value="vararg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Plugins" timestamp="1585055745839">
@@ -347,26 +363,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="74" key="#xdebugger.evaluate/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585071654041" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585127660551">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585130862309">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585127660551" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585130635142">
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585130862309" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585223405375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585130635142" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585130635141">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585223405375" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585223405370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585130635141" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585130635140">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585223405365" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585223405344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585130635140" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585130635141">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585223405344" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585223405371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585130635141" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585223405371" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585074669837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -391,18 +407,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="395" y="82" key="MultipleFileMergeDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585124321396" />
-    <state x="182" y="10" width="1184" height="708" key="SettingsEditor" timestamp="1585051596618">
+    <state x="182" y="10" width="1184" height="708" key="SettingsEditor" timestamp="1585218604387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="182" y="10" width="1184" height="708" key="SettingsEditor/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585051596618" />
+    <state x="182" y="10" width="1184" height="708" key="SettingsEditor/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585218604387" />
     <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585074533111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074533111" />
-    <state x="454" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585124049304">
+    <state x="454" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585219589407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="454" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585124049304" />
+    <state x="454" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585219589407" />
     <state x="464" y="81" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585124284681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -431,9 +447,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="303" y="231" key="git4idea.ui.GitUnstashDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074504299" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585073055244">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585218732476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585073055244" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585218732476" />
   </component>
 </project>
