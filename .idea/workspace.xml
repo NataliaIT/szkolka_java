@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9b5501-a52b-4dc4-b44d-c7a87058bf75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/LambdaZad1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/EmployeeOOP.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Oceny.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/PersonOOP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Step1OOP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Step2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Boat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Plane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Vehicle.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="varargs" />
+        <entry key="$PROJECT_DIR$" value="objectOriented" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +73,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -76,13 +90,39 @@
       <recent name="C:\Users\rnew\Desktop\szkolka_java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.LambdaZad1">
     <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.oop.Child" />
       <module name="szkolka_java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.accenture.szkolka.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.lambda.Lambda" />
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaZad1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.lambda.LambdaZad1" />
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,51 +158,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="szkolka_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.accenture.szkolka.varargs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.accenture.szkolka" />
-      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.ProductTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZadaniaIndywidualneTest.logHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="szkolka_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.accenture.szkolka.pp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.accenture.szkolka.pp" />
-      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.pp.ZadaniaIndywidualneTest" />
-      <option name="METHOD_NAME" value="logHello" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ZadaniaIndywidualneTest.logHello" />
-      <item itemvalue="JUnit.ProductTest" />
-      <item itemvalue="JUnit.OcenyTest" />
       <item itemvalue="Application.Child" />
+      <item itemvalue="JUnit.OcenyTest" />
+      <item itemvalue="Application.Lambda" />
+      <item itemvalue="Application.LambdaZad1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaZad1" />
+        <item itemvalue="Application.Lambda" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Child" />
         <item itemvalue="JUnit.OcenyTest" />
-        <item itemvalue="JUnit.ProductTest" />
-        <item itemvalue="JUnit.ZadaniaIndywidualneTest.logHello" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585308007474</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="oop">
+      <created>1585310312231</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585310312231</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,34 +382,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585046467385" />
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585308849851">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585640857786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585308849851" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585640857786" />
     <state x="438" y="74" key="#xdebugger.evaluate" timestamp="1585071654041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="74" key="#xdebugger.evaluate/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585071654041" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585308003351">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585310309746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585308003351" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585307950236">
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585310309746" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585641125464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585307950236" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585307950236">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641125464" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585641125464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585307950236" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585307950234">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641125464" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585641125464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585307950234" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585307950236">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641125464" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585641125464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585307950236" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641125464" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585074669837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -418,10 +434,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="395" y="82" key="MultipleFileMergeDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585124321396" />
-    <state x="182" y="10" width="1184" height="708" key="SettingsEditor" timestamp="1585297000577">
+    <state x="350" y="70" key="NewModule_or_Project.wizard" timestamp="1585319027330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="182" y="10" width="1184" height="708" key="SettingsEditor/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585297000577" />
+    <state x="350" y="70" key="NewModule_or_Project.wizard/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585319027330" />
+    <state x="182" y="10" width="1184" height="708" key="SettingsEditor" timestamp="1585640062321">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="182" y="10" width="1184" height="708" key="SettingsEditor/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585640062321" />
     <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585074533111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -430,10 +450,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585219589407" />
-    <state x="464" y="81" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585124284681">
+    <state x="464" y="81" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585639706966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="81" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585124284681" />
+    <state x="464" y="81" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585639706966" />
     <state x="489" y="168" key="git4idea.merge.GitMergeDialog" timestamp="1585073514605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -458,9 +478,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="303" y="231" key="git4idea.ui.GitUnstashDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074504299" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585218732476">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585641110439">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585218732476" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641110439" />
   </component>
 </project>
