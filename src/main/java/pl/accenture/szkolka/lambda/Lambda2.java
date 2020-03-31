@@ -7,12 +7,12 @@ public class Lambda2 {
 
         MyInterface2 anonimowa2 = new MyInterface2() {
             @Override
-            public void go2() {
-                System.out.println("Anonimowa implementacja2");
+            public String go() {
+                return "Anonimowa implementacja!";
             }
         };
 
-        MyInterface1 lamba1 =() -> System.out.println("Lambda2");
+        MyInterface2 lamba2 =() -> System.out.println("Lambda2");
 
     }
 }
@@ -20,14 +20,14 @@ public class Lambda2 {
 //TODO 2a - tworzymy interfejs funkcyjny
 @FunctionalInterface
 interface MyInterface2{
-    void go2();
+    String go();
 }
 
 //TODO 2b - klasyczna implementacja
 
 class Klasycznie2 implements MyInterface2{
     @Override
-    public void go2() {
-
+    public String go() {
+return "Klasyczna implementacja!"
     }
 }
