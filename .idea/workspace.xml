@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9b5501-a52b-4dc4-b44d-c7a87058bf75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/LambdaListyZadanie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/LambdaOsobyPrzyklad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/LambdaZadaniaIndywidualne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -350,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585642079457</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="lambda zadanie indywidualne">
+      <created>1585647970171</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1585647970171</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +394,8 @@
     <MESSAGE value="lambda zad 2" />
     <MESSAGE value="lambda zad 3" />
     <MESSAGE value="lambda zad 3 - poprawione" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda zad 3 - poprawione" />
+    <MESSAGE value="lambda zadanie indywidualne" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda zadanie indywidualne" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Plugins" timestamp="1585055745839">
@@ -413,10 +418,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="74" key="#xdebugger.evaluate/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585071654041" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585642077307">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585647966977">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585642077307" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585647966977" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585647945887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -465,10 +470,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="182" y="10" width="1184" height="708" key="SettingsEditor/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585644849532" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585642109426">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585647982408">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585642109426" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585647982408" />
     <state x="454" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585219589407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

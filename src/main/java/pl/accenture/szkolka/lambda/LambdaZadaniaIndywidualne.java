@@ -1,5 +1,12 @@
 package pl.accenture.szkolka.lambda;
-
+// TODO 1 Klasa person: name, lastName, age, nadpisz toString
+// TODO 2 3 predykaty w klasie: imieNaA and nazwiskoNaB and wiekPowyzej20Lat
+// TODO 3 kolekcja List<Person> (>5 lelemntów)
+/*
+        TODO 4 stream API:
+        -odfiltruj uzywając 3 predykatów
+        -wypisz do konsoli odfiltrowane elementy
+ */
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
