@@ -29,6 +29,6 @@ interface MyInterface1{
 class Klasycznie1 implements MyInterface1{
     @Override
     public void go() {
-
+        System.out.println("Klasyczna implementacja");
     }
 }

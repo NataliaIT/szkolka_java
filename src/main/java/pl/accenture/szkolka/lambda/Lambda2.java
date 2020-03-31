@@ -12,7 +12,7 @@ public class Lambda2 {
             }
         };
 
-        MyInterface2 lamba2 =() -> System.out.println("Lambda2");
+        MyInterface2 lamba2 =() -> "Lambda2";
 
     }
 }
@@ -28,6 +28,6 @@ interface MyInterface2{
 class Klasycznie2 implements MyInterface2{
     @Override
     public String go() {
-return "Klasyczna implementacja!"
+return "Klasyczna implementacja!";
     }
 }
