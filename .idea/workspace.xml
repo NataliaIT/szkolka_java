@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9b5501-a52b-4dc4-b44d-c7a87058bf75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/LambdaZad1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/EmployeeOOP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Oceny.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/PersonOOP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Step1OOP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/Step2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/Step3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Boat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Plane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/oop/model/Vehicle.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/Lambda2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +73,7 @@
       <recent name="C:\Users\rnew\Desktop\szkolka_java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaZad1">
+  <component name="RunManager" selected="Application.Lambda2">
     <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.oop.Child" />
       <module name="szkolka_java" />
@@ -106,6 +89,19 @@
     </configuration>
     <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.lambda.Lambda" />
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lambda2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.lambda.Lambda2" />
       <module name="szkolka_java" />
       <extension name="coverage">
         <pattern>
@@ -143,35 +139,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OcenyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="szkolka_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.accenture.szkolka.varargs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.accenture.szkolka" />
-      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.OcenyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Child" />
-      <item itemvalue="JUnit.OcenyTest" />
       <item itemvalue="Application.Lambda" />
       <item itemvalue="Application.LambdaZad1" />
+      <item itemvalue="Application.Lambda2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lambda2" />
         <item itemvalue="Application.LambdaZad1" />
         <item itemvalue="Application.Lambda" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Child" />
-        <item itemvalue="JUnit.OcenyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585310312231</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="lambda">
+      <created>1585641188780</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585641188780</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,7 +355,8 @@
     <MESSAGE value="vararg" />
     <MESSAGE value="petle" />
     <MESSAGE value="oop" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop" />
+    <MESSAGE value="lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Plugins" timestamp="1585055745839">
@@ -390,26 +379,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="74" key="#xdebugger.evaluate/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585071654041" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585310309746">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585641185817">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585310309746" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585641125464">
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641185817" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585641311288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641125464" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585641125464">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641311288" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585641311287">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641125464" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585641125464">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641311287" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585641311287">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641125464" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585641125464">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641311287" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585641311287">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641125464" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585641311287" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585074669837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
