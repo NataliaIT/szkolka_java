@@ -7,6 +7,7 @@ package pl.accenture.szkolka.lambda;
         -odfiltruj uzywając 3 predykatów
         -wypisz do konsoli odfiltrowane elementy
  */
+
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -47,6 +48,7 @@ class Person1 {
     String name;
     String lastName;
     int age;
+
     public Person1(String name, String lastName, int age) {
         this.name = name;
         this.lastName = lastName;

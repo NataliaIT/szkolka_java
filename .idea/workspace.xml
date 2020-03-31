@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9b5501-a52b-4dc4-b44d-c7a87058bf75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/ZadanieIndywidualne2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/ZadanieKomp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/LambdaZadaniaIndywidualne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/accenture/szkolka/lambda/LambdaZadaniaIndywidualne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +77,7 @@
       <recent name="C:\Users\rnew\Desktop\szkolka_java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaZadaniaIndywidualne">
-    <configuration name="Lambda3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.lambda.Lambda3" />
-      <module name="szkolka_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.accenture.szkolka.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ZadanieIndywidualne2">
     <configuration name="LambdaListyZadanie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.lambda.LambdaListyZadanie" />
       <module name="szkolka_java" />
@@ -113,19 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaZad1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.lambda.LambdaZad1" />
-      <module name="szkolka_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.accenture.szkolka.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LambdaZadaniaIndywidualne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.lambda.LambdaZadaniaIndywidualne" />
       <module name="szkolka_java" />
@@ -139,20 +117,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZadanieIndywidualne2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.lambda.ZadanieIndywidualne2" />
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZadanieKomp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.accenture.szkolka.lambda.ZadanieKomp" />
+      <module name="szkolka_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.accenture.szkolka.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.LambdaZad1" />
-      <item itemvalue="Application.Lambda3" />
       <item itemvalue="Application.LambdaListyZadanie" />
       <item itemvalue="Application.LambdaOsobyPrzyklad" />
       <item itemvalue="Application.LambdaZadaniaIndywidualne" />
+      <item itemvalue="Application.ZadanieKomp" />
+      <item itemvalue="Application.ZadanieIndywidualne2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZadanieIndywidualne2" />
+        <item itemvalue="Application.ZadanieKomp" />
         <item itemvalue="Application.LambdaZadaniaIndywidualne" />
         <item itemvalue="Application.LambdaOsobyPrzyklad" />
         <item itemvalue="Application.LambdaListyZadanie" />
-        <item itemvalue="Application.LambdaZad1" />
-        <item itemvalue="Application.Lambda3" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585647970171</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="lambda zadanie indywidualne - komentarz">
+      <created>1585648130460</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1585648130460</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,7 +406,8 @@
     <MESSAGE value="lambda zad 3" />
     <MESSAGE value="lambda zad 3 - poprawione" />
     <MESSAGE value="lambda zadanie indywidualne" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda zadanie indywidualne" />
+    <MESSAGE value="lambda zadanie indywidualne - komentarz" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda zadanie indywidualne - komentarz" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Plugins" timestamp="1585055745839">
@@ -410,34 +422,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585046467385" />
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585646961577">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585649705036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585646961577" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585649705036" />
     <state x="438" y="74" key="#xdebugger.evaluate" timestamp="1585071654041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="74" key="#xdebugger.evaluate/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585071654041" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585647966977">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1585648128293">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585647966977" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585647945887">
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585648128293" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585652175332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585647945887" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585647945886">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585652175332" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585652175332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585647945886" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585647945886">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585652175332" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585652175331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585647945886" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585647945886">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585652175331" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585652175332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585647945886" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585652175332" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585074669837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -454,6 +466,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585074669837" />
+    <state x="213" y="23" key="Maven.ArtifactSearchDialog" timestamp="1585649605245">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="23" key="Maven.ArtifactSearchDialog/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585649605245" />
     <state x="129" y="61" width="1104" height="606" key="MergeDialog" timestamp="1585124321387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -470,10 +486,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="182" y="10" width="1184" height="708" key="SettingsEditor/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585644849532" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585647982408">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585648133783">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585647982408" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.-134.1366.728@0.0.1366.728" timestamp="1585648133783" />
     <state x="454" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585219589407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
