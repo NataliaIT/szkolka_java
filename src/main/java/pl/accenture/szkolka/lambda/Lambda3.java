@@ -10,7 +10,7 @@ public class Lambda3 {
             }
         };
 
-        MyInterface3 lambda3 = "text" ->"Lambda3";
+        MyInterface3 lambda3 = text -> "Lambda3";
     }
 
 
