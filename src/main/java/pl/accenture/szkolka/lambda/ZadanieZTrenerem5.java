@@ -33,22 +33,7 @@ public class ZadanieZTrenerem5 {
 
 
 
-//
-//public class ZadanieGrupowe4 {
-//    public static void main(String[] args) {
-//
-//        var people4 = List.of(
-//                "Lukasz-Wyspianski",
-//                "Ania-Kowalska",
-//                "Janina-Kowalska"
-//        ).stream()
-//                .map(s -> s.split("-")[0])
-//                .collect(Collectors.toList());
-//
-//
-//        System.out.println(people4);
-//    }
-//}
+
 
 
 
